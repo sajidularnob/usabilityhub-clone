@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* Banner */
+.bannerImg {
+  height: 50px;
+  width: 100%;
+  background-color: #4dadf7;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.84rem;
+}
+.bannerImg p {
+  cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+  height: 70px;
+  width: 100%;
+  padding-top: 25px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  /* margin-top: 25px; */
+  margin-left: 20px;
+  height: 30px;
+  width: 170px;
+  background-image: url(images/assets/logo-1.png);
+  background-size: cover;
+  height: 30px;
+  width: 170px;
+  background-repeat: none;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list ul {
+  display: flex;
+}
+.list ul li {
+  list-style: none;
+}
+.list ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin: 0 20px;
+  transition: all 0.2s;
+}
+/* Button */
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+.sign button {
+  border: 1px solid #2295ed4f;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.btn {
+  height: 45px;
+  width: 115px;
+  font-size: 0.9rem;
+  padding: 8px 18px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.free button {
+  background-color: #2295ed;
+  border: none;
+  color: white;
+}
+
+/* Hover Effects */
+
+.list ul li a:hover {
+  color: #2295ed;
+}
+.sign button:hover {
+  color: #1b82d1;
+  font-weight: 700;
+  border: 1px solid #2295ed;
+}
+.free button:hover {
+  background-color: #0b62a5;
+}
+.hero {
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.hero-left {
+  margin: 60px 0;
+  padding: 0 10px;
+}
+.hero-left h1 {
+  font-size: 3rem;
+  color: #183b56;
+}
+.hero-left :nth-child(2) {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  padding-right: 60px;
+  color: #577592;
+}
+.hero-left .free button {
+  font-weight: 550;
+  font-size: 1rem;
+  height: 52px;
+  width: 250px;
+}
+.hero-left :nth-child(4) {
+  margin: 20px 0;
+  padding-left: 50px;
+  width: 100%;
+  font-size: 0.8rem;
+  color: #577592;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.company {
+  
+  margin-bottom: 120px;
+}
+.com-title {
+  font-size: 1.2rem;
+  color: #183b56;
+
+  text-align: center;
+}
+.com-logo {
+  height: 30px;
+
+  margin: 20px 20px;
+}
+/* Featurs */
+.feature{
+   height: 1000px;
+    margin: 20px 10px;
+    padding: 20px 0;
+ display: flex;
+
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+    position: relative;
+    margin-bottom: 60px;
+   
+   
+}
+.feature .sign{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.feature h1{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: #183b56;
+    
+    font-size: 2.2rem;
+}
+.circle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -600;
+}
+.feature .sign .feature-btn{
+  
+    width: 184px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #183b56;
+    /* margin-left: 132px; */
+   
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.learn-more-card{
+    display: flex;
+    margin: 50px ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    height: 242px;
+    width: 350px;
+}
+.learn-more-card h2{
+    color: #183b56;
+    font-size: 1.8rem;
+
+}
+.learn-more-card p{
+    color: #577592;
+    font-size: 1.5rem;
+    margin: 10px 0;
+   
+}
+.learn-btn button{
+    color: #183b56;
+    width: 184px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* Design Section */
+.design{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design img{
+    margin: 0 40px;
+}
+.design-right h4{
+    font-size: 1.2rem;
+    color: #183b56;
+
+}
+.design-right h1{
+    font-size: 2.5rem;
+    color: #183b56;
+}
+.design-right p{
+    font-size: 1.9rem;
+    color: #577592;
+}
+/* Example Section */
+.example-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.example-sec h1{
+    text-align: center;
+}
+.example-sec button{
+    margin: 10px;
+    color: #1b82d1;
+    width: 250px;
+    height: 50px;
+}
+.images{
+    display: flex;
+}
+.image{
+
+    display: flex;
+    align-items: flex-end;
+   
+    background-size: cover;
+    color: white;
+    height: 333px;
+    width: 278px;
+    position: relative;
+    padding: 0 35px;
+    font-size: .8rem;
+    text-align: justify;
+    margin: 10px;
+
+}
+.notes{
+    background-image: linear-gradient(to bottom, rgba(34, 32, 32, 0.377), rgba(10, 10, 10, 0.527)),
+    url('images/assets/notes.jpeg');
+}
+.sign-board{
+    background-image: linear-gradient(to bottom, rgba(34, 32, 32, 0.377), rgba(10, 10, 10, 0.527)),
+    url('images/assets/signs.jpeg');
+}
+.audience{
+    background-image: linear-gradient(to bottom, rgba(34, 32, 32, 0.377), rgba(10, 10, 10, 0.527)),
+    url('images/assets/audience.jpeg');
+}
+.map{
+    background-image: linear-gradient(to bottom, rgba(34, 32, 32, 0.377), rgba(10, 10, 10, 0.527)),
+    url('images/assets/map.jpeg');
+}
+.image h1{
+    
+    font-weight: 400;
+}
+
+/* .image::after{
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.568);
+} */
+/* Footer */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  margin-top: 30px;
+  height: 64px;
+  width: 100%;
+  background-color: #b9cde4;
+}
+footer .footer-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text p{
+  margin: 0 10px;
+  color: #183b56;
+}
+.footer-text p:hover{
+  color: #0b62a5;
+  cursor: pointer;
+}
+.footer-icon i{
+  font-size: 1.2rem;
+  margin: 10px;
+  color: #09345570;
+  cursor: pointer;
+
+}
+/* Footer */
